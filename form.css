@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    padding:0;
+
+}
+.form-content{
+    text-align: center;
+    background-image: url('for.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:soft-light;
+    height: 400px;
+    
+    
+
+}
+.title{
+    margin-top: 100px;
+    color:black;
+    text-transform:uppercase;
+    transition: all 4s ease-in-out;
+
+}
+.title h1{
+    font-size: 25px;
+    line-height: 50px;
+
+
+}
+.title h2 {
+    font-size: 20px;
+
+}
+form{
+    margin-top: 50px;
+    transition: all 3s ease-in-out;
+    color: black;
+}
+.form-control{
+background:transparent;
+widows: 200px;
+border:none;
+outline: none;
+border-bottom: 3px solid grey;
+font-size: 15px;
+margin-bottom: 10px;
+
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color:#fff;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height:30px;
+    margin-top: 30px;
+}
+form .submit:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.footer{
+   
+    margin-bottom: 0px;
+}
+.dropbtn{
+    background:rgb(163, 204, 163);
+    color:whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    cursor: pointer;
+    
+}
+.dropdown{
+    position:static;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: beige;
+    min-width: 80px;
+    z-index:1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.sidebar{
+    max-height: 80px;
+}
